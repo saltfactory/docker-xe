@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/saltfactory/docker-xe.svg?branch=master)](https://travis-ci.org/saltfactory/docker-xe)
 [![License](http://img.shields.io/badge/license-GNU%20LGPL-brightgreen.svg)](http://www.gnu.org/licenses/gpl.html)
-[![Latest release](http://img.shields.io/github/release/saltfactory/docker-xe.svg)](https://github.com/saltfactory/docker-xe/releases)
+[![Latest release](https://img.shields.io/badge/release-v1.8.3-ff69b4.svg)](https://github.com/saltfactory/docker-yobi/releases)
+<!-- [![Latest release](http://img.shields.io/github/release/saltfactory/docker-xe.svg)](https://github.com/saltfactory/docker-xe/releases) -->
 
 
 **docker-xe**는 [XE(XpressEngine)](https://www.xpressengine.com/)을 docker에서 운영할 수 있는 컨테이너이다.
@@ -28,7 +29,7 @@
 
 ## docker-xe
 
-**docker-xe**는 *XE**를 docker 환경에서 운영하기 위한 컨테이너이다. 이것은 XE를 위해 서버에 복잡하게 웹 서버와 서버 설정을 하는 것을 생략하고 docker만 있다면 곧바로 실행하여 서비스를 할 수 있수 있다. docker-xe는 위에서 나열한 XE요구사항을 모두 적용할 뿐만 아니라 더 많은 라이브러리가 설치되어 있다.
+**docker-xe**는 **XE**를 docker 환경에서 운영하기 위한 컨테이너이다. 이것은 XE를 위해 서버에 복잡하게 웹 서버와 서버 설정을 하는 것을 생략하고 docker만 있다면 곧바로 실행하여 서비스를 할 수 있수 있다. docker-xe는 위에서 나열한 XE요구사항을 모두 적용할 뿐만 아니라 더 많은 라이브러리가 설치되어 있다.
 
 * [Debian - jessie](https://www.debian.org/releases/stable/amd64/release-notes/) 운영체제
 * Apache 2.4.10
@@ -153,6 +154,15 @@ docker-xe 컨테이너의 apache2의 로그는 내 컴퓨터 `./shell/config.sh`
 xe logs
 ```
 
+
 ## 라이센스
 
 **XE**는 GNU LGPL 오픈소스 라이센스 정책을 따르기 때문에 이 프로젝트 역시 GNU LGPL 라이센스를 적용한다.
+
+## 기부하기
+
+> 기부금은 연구활동과 블로그 운영에 사용됩니다.
+
+기부방법은 [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NR99D2BERKK8Y&lc=KR&item_name=donate%2esaltfactory%2enet&item_number=net%2esaltfactory%2edonate&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)을 이용하는 방법이 있습니다.
+
+[![paypal button](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NR99D2BERKK8Y&lc=KR&item_name=donate%2esaltfactory%2enet&item_number=net%2esaltfactory%2edonate&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
