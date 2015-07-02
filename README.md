@@ -1,5 +1,10 @@
 # docker-xe
 
+[![Build Status](https://travis-ci.org/saltfactory/docker-xe.svg?branch=master)](https://travis-ci.org/saltfactory/docker-xe)
+[![License](http://img.shields.io/badge/license-GNU%20LGPL-brightgreen.svg)](http://www.gnu.org/licenses/gpl.html)
+[![Latest release](http://img.shields.io/github/release/saltfactory/docker-xe.svg)](https://github.com/saltfactory/docker-xe/releases)
+
+
 **docker-xe**는 [XE(XpressEngine)](https://www.xpressengine.com/)을 docker에서 운영할 수 있는 컨테이너이다.
 
 
